@@ -1,4 +1,3 @@
-cd Documents
 sudo dpkg -i Flow-Desq-1.0.7.deb
 echo "Installing with Org ID: $organizationId"
 
