@@ -12,6 +12,6 @@ sudo mkdir -p /usr/local/bin/Flow-Desq
 echo "{\"organizationId\": \"$organizationId\"}" | sudo tee /usr/local/bin/Flow-Desq/config.json > /dev/null
 
 # Set correct permissions
-sudo chmod 644 /usr/local/bin/Flow-Desq/config.json
+sudo chmod 777 /usr/local/bin/Flow-Desq/config.json
 
 echo "✅ Installed with org ID: $organizationId"
